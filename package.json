@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Quiz game.",
   "main": "Server/Server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/Server.js",
+    "dev": "nodemon Server/Server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,7 @@
   },
   "homepage": "https://github.com/Palmen98/QuizTime#readme",
   "dependencies": {
-    "express": "^4.17.2"
-  },
-  "proxy": "http://localhost:5000/"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
