@@ -1,0 +1,22 @@
+{
+  "name": "quiztime",
+  "version": "1.0.0",
+  "description": "Quiz game.",
+  "main": "Server/Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palmen98/QuizTime.git"
+  },
+  "author": "Simon Palm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Palmen98/QuizTime/issues"
+  },
+  "homepage": "https://github.com/Palmen98/QuizTime#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
